@@ -60,7 +60,7 @@ class ReportFixtures extends Fixture implements DependentFixtureInterface
         }
 
 
-        for ($i = 1; $i < 31; $i++) {
+        for ($i = 1; $i < 25; $i++) {
             $date = new DateTime('2024-03-' . $i . ' 17:16:18');
             $report1  = new Report($date);
             $report1->setCompany($c);
